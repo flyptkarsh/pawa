@@ -26,12 +26,12 @@ Spina.configure do |config|
   # config.storage = :file
 
   # If you want to use s3 to store uploads (recommended)
-
-  config.storage = :s3
-  config.aws_region = "us-east-1"
-  config.aws_access_key_id = ENV["AWS_ACCESS_KEY_ID"]
-  config.aws_secret_key = ENV["AWS_ACCESS_KEY_ID"]
-  config.s3_bucket = ENV["S3_BUCKET_NAME"]
+  # 
+  # config.storage = :s3
+  # config.aws_region = "us-east-1"
+  # config.aws_access_key_id = ENV["AWS_ACCESS_KEY_ID"]
+  # config.aws_secret_key = ENV["AWS_ACCESS_KEY_ID"]
+  # config.s3_bucket = ENV["S3_BUCKET_NAME"]
   # If you want to store your files localy (not recommended for
   # production, in large part because it's more difficult to ensure
   # that files are backed up in sync with your database):
